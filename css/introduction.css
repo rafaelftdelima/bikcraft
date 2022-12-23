@@ -39,24 +39,6 @@
     margin-bottom: 20px;
 }
 
-.introduction-content a {
-    background: linear-gradient(#ffbf00, #f2a50c);
-    border-radius: 4px;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
-    color: #320;
-    display: inline-block;
-    font-family: "Poppins";
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 1.33;
-    padding: 16px 32px;
-    text-transform: uppercase;
-}
-
-.introduction-content a:hover {
-    background: linear-gradient(#ffb60d, #e59317);
-}
-
 .introduction img {
     height: 100%;
     object-fit: cover;
@@ -69,13 +51,6 @@
 
     .introduction-content p {
         font-size: 18px;
-    }
-}
-
-@media (max-width: 600px) {
-    .introduction-content a {
-        font-size: 16px;
-        padding: 12px 16px;
     }
 }
 
