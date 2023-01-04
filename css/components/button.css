@@ -5,12 +5,22 @@
     color: var(--color-p5);
     display: inline-block;
     font: 600 1.125rem/1.35 "Poppins", sans-serif;
+    max-width: max-content;
     padding: 16px 32px;
     text-transform: uppercase;
 }
 
 .btn:hover {
     background: linear-gradient(#ffb60d, #e59317);
+}
+
+.btn.secondary {
+    background: var(--color-10);
+    color: var(--color-2);
+}
+
+.btn.secondary:hover {
+    background-color: var(--color-9);
 }
 
 @media (max-width: 600px) {
