@@ -1,0 +1,22 @@
+.title-bg {
+    background-color: var(--color-11);
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.title p {
+    margin-bottom: 4px;
+}
+
+@media (max-width: 800px) {
+    .title-bg {
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+
+    .title p {
+        font-weight: 400;
+        font-size: 1rem;
+        text-transform: lowercase;
+    }
+}
