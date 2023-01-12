@@ -23,6 +23,25 @@
     background-color: var(--color-9);
 }
 
+.btn.arrow {
+    align-items: center;
+    display: flex;
+}
+
+.btn.arrow:hover:after {
+    transform: translateX(4px);
+}
+
+.btn.arrow::after {
+    background: url("../../img/icons/arrow.svg");
+    content: "";
+    display: inline-block;
+    height: 10px;
+    margin-left: 12px;
+    width: 18px;
+    transition: transform 0.3s;
+}
+
 @media (max-width: 600px) {
     .btn {
         font-size: 1rem;
