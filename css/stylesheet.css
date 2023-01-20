@@ -20,6 +20,9 @@
 @import url("./bikes/bikes-list.css");
 @import url("./bikes/bikes.css");
 
+/* BIKE */
+@import url("./bike/bike.css");
+
 /* TERMS */
 @import url("./terms/terms.css");
 
