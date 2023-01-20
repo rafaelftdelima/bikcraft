@@ -15,9 +15,8 @@
     padding: 0px 20px 20px 20px;
 }
 
-#bike .bikes-list ul {
-    padding-left: 0px;
-    padding-right: 0px;
+#bike .bikes-list h2 {
+    padding: 20px;
 }
 
 .bikes-list li {
