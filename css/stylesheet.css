@@ -22,6 +22,7 @@
 
 /* BIKE */
 @import url("./bike/bike.css");
+@import url("./bike/insurance.css");
 
 /* TERMS */
 @import url("./terms/terms.css");
