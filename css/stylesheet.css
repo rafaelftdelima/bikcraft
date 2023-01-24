@@ -4,6 +4,7 @@
 @import url("./global/typography.css");
 @import url("./global/header.css");
 @import url("./global/footer.css");
+@import url("./global/form.css");
 
 /* COMPONENTS */
 @import url("./components/button.css");
@@ -31,3 +32,7 @@
 @import url("./insurances/insurances-list.css");
 @import url("./insurances/advantages.css");
 @import url("./insurances/questions.css");
+
+/* CONTACT */
+@import url("./contact/contact.css");
+@import url("./contact/stores.css");
