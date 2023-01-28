@@ -1,0 +1,42 @@
+#budget {
+    background: linear-gradient(var(--color-11) 600px, var(--color-1) 0px);
+}
+
+.budget {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    padding-bottom: 120px;
+}
+
+.budget h2 {
+    align-items: center;
+    display: flex;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.budget h2::before {
+    background-color: var(--color-p1);
+    content: "";
+    display: inline-block;
+    height: 8px;
+    left: -12px;
+    position: absolute;
+    width: 4px;
+}
+
+.budget-product,
+.budget-infos {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    padding: 60px;
+}
+
+.budget-product {
+    border-radius: 5px 0px 0px 5px;
+    background: var(--color-12);
+}
+
+.budget-infos {
+    background-color: var(--color-0);
+    border-radius: 0px 5px 5px 0px;
+}
