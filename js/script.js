@@ -22,3 +22,21 @@ function activeProduct(parameter) {
 };
 
 parameters.forEach(activeProduct);
+
+function activeQuestion(event) {
+    const question = event.currentTarget;
+    const controls = question.getAttribute("aria-controls");
+    const answer = document.getElementById(controls);
+
+    answer.classList.toggle("active");
+
+    const active = answer.classList.contains("active");
+    question.setAttribute("aria-expanded", active);
+}
+
+function questionClickEvent(button) {
+    button.addEventListener("click", activeQuestion);
+}
+
+const buttons = document.querySelectorAll(".questions button");
+buttons.forEach(questionClickEvent);
