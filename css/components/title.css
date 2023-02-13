@@ -4,6 +4,10 @@
     padding-top: 60px;
 }
 
+.title {
+    background: url("../../img/details/top-right.svg") no-repeat top right 20px;
+}
+
 .title p {
     margin-bottom: 4px;
 }

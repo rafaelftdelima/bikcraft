@@ -1,5 +1,5 @@
 .introduction-bg {
-    background-color: var(--color-12);
+    background: var(--color-12) url("../../img/details/bottom-left.svg") no-repeat bottom 160px left 20px;
     box-shadow: 0px -120px 0px var(--color-0) inset;
     color: var(--color-0);
 }
