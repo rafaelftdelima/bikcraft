@@ -40,3 +40,21 @@ function questionClickEvent(button) {
 
 const buttons = document.querySelectorAll(".questions button");
 buttons.forEach(questionClickEvent);
+
+const galery = document.querySelectorAll(".bike-images img");
+const galeryContainer = document.querySelector(".bike-images");
+
+function changeImage(event) {
+    const img = event.currentTarget;
+    const media = matchMedia("(min-width: 1000px)").matches;
+
+    if (media) {
+        galeryContainer.prepend(img);
+    }
+}
+
+function galeryEvent(img) {
+    img.addEventListener("click", changeImage);
+}
+
+galery.forEach(galeryEvent);
