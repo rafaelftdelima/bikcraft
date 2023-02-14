@@ -15,6 +15,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&family=Merriweather:ital,wght@1,900&display=swap"
         rel="stylesheet">
+    <script>document.documentElement.classList.add("js");</script>
 </head>
 
 <body class="app">
@@ -37,14 +38,14 @@
     <main class="introduction-bg">
         <div class="introduction container">
             <div class="introduction-content">
-                <h1 class="font-1-xxl color-0">Bicicletas feitas sob medida<span class="color-p1">.</span></h1>
-                <p class="font-2-l color-5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para
+                <h1 class="font-1-xxl color-0 fadeInDown" data-anime="200">Bicicletas feitas sob medida<span class="color-p1">.</span></h1>
+                <p class="font-2-l color-5 fadeInDown" data-anime="400">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para
                     você. Explore o mundo na
                     sua velocidade com a Bikcraft.</p>
-                <a class="btn" href="./bicicletas.html">Escolha a sua</a>
+                <a class="btn" href="./bicicletas.html" data-anime="600">Escolha a sua</a>
             </div>
 
-            <div class="introduction-img">
+            <div class="introduction-img fadeInDown" data-anime="800">
                 <img src="/img/photos/introduction.jpg" alt="Bicicleta elétrica preta">
             </div>
         </div>
@@ -225,6 +226,7 @@
             <p class="footer-copy font-2-m color-6">Bikcraft &copy; Alguns direitos reservados.</p>
         </div>
     </footer>
+    <script src="./js/simple-anime.js"></script>
     <script src="./js/script.js"></script>
 </body>
 
